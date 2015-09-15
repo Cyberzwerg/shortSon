@@ -71,5 +71,5 @@ compact = deflate(longTestData,["name","age","gender","isCool","isPotatoe","hasS
 originalLength = JSON.stringify(longTestData).length
 compactLength = JSON.stringify(compact).length
 
-console.log "Saved characters: #{ originalLength-compactLength } ( #{ Math.round(compactLength/originalLength*100)/10 }% shorter )"
+console.log "Saved characters: #{ originalLength-compactLength }  ( #{ Math.round(compactLength/originalLength*100)/10 }% shorter )"
 
